@@ -1,5 +1,5 @@
 .header{
-    background: rgba(132, 122, 122, 0.27);
+    background: rgba(43, 38, 38, 0.27);
 }
 .wrapper{
     max-width: 1110px;
@@ -15,6 +15,7 @@
     font-family: 'DM Sans', sans-serif;
     width: 1440px;
     height: 145px;
+    font-size: 25px;
     margin-left: 109px;
 }
 .header-top>nav>ul{
@@ -36,64 +37,57 @@
     width: 212.39px;
     height: 60px;
     border: 0px;
-    background: #704214b5;
+    background: #530606ea;
     border-radius: 15px;
     color: #FFFFFF;
-    font-size: 1em;
+    font-size: 20px;
     outline: none;
     cursor: pointer;
     transition: .5s;
-    box-shadow: 0 6px 0 #704214;
-    margin-left: 109px;
-    margin-right: 35px; 
+    box-shadow: 0 6px 0 #000000;
+    margin-left: 10px;
+    margin-right: 0px; 
     font-family: 'DM Sans';
+
 }
 .button-1:active{
     box-shadow: none;
     transform: translateY(6px);
 }
 .title1{
-    width: 467.24px;
+    width: 600px;    
     height: 231px;
     font-family: 'DM Sans';
     font-style: normal;
+    text-align: center;
     font-weight: 700;
     font-size: 40px;
     line-height: 77px;
     letter-spacing: -2.50105px;
     color: #19191B;
-    margin-left: 109px;
-}
-.p{
-    width: 464.21px;
-    height: 90px;
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: -0.625263px;
-    color: #696871;
-    margin-left: 109px;
+    margin-left: 450px;
     margin-bottom: 50px;
-    margin-top: 30px;
+}
+
+A{
+    color: #ffffff;
 }
 .button2{
     width: 212.39px;
     height: 60px;
     border: 0px;
-    background: #704214b5;
+    background: #530606ea;
     border-radius: 15px;
     color: #FFFFFF;
-    font-size: 1em;
+    font-size: 30px;
     outline: none;
     cursor: pointer;
     transition: .5s;
-    box-shadow: 0 6px 0 #704214;
-    margin-left: 109px;
-    margin-right: 35px; 
+    box-shadow: 0 6px 0 #000000;
+    margin-left: 515px;
+    margin-right: 50px; 
     font-family: 'DM Sans';
-    margin-bottom: 117px;
+    margin-bottom: 10px;
 }
 .button2:active{
     box-shadow: none;
@@ -103,14 +97,14 @@
     width: 212.39px;
     height: 60px;
     border: 1px solid #704214b5;
-    background: #ffffff;
+    background: #118599;
     border-radius: 15px;
     color: #704214b5;
-    font-size: 1em;
+    font-size: 30px;
     outline: none;
     cursor: pointer;
     transition: .5s;
-    box-shadow: 0 6px 0 #704214;
+    box-shadow: 0 6px 0 #030200;
     font-family: 'DM Sans';
 }
 .button3:active{
@@ -329,7 +323,7 @@
 }
 .footer-top>nav>ul>li{
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 300px;
 }
 .footer-top>nav>ul>li>a{
     color: #696871;
